@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.6 on win32)" generated="20210708 00:10:32.402" rpa="false" schemaversion="2">
+<suite id="s1" name="Teste Yt" source="C:\Users\Vinicius\Documents\projetos\Teste_acessar_YT\teste_acesso_yt\teste_yt.robot">
+<kw name="Abrir o navegador" library="resource_yt" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210708 00:10:32.715" level="INFO">Opening browser 'Chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20210708 00:10:32.715" endtime="20210708 00:10:34.173"/>
+</kw>
+<status status="PASS" starttime="20210708 00:10:32.714" endtime="20210708 00:10:34.174"/>
+</kw>
+<test id="s1-t1" name="Teste de Cado 01 : Acessar canal &quot;Manual de Celular&quot;">
+<kw name="Abrir a pagina do canal &quot;Manual de Celular&quot;" library="resource_yt">
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20210708 00:10:34.183" level="INFO">Opening url 'https://www.youtube.com/c/ManualdeCelularOficial/playlists'</msg>
+<status status="PASS" starttime="20210708 00:10:34.182" endtime="20210708 00:10:42.143"/>
+</kw>
+<status status="PASS" starttime="20210708 00:10:34.181" endtime="20210708 00:10:42.143"/>
+</kw>
+<status status="PASS" starttime="20210708 00:10:34.174" endtime="20210708 00:10:42.144"/>
+</test>
+<doc>arquivo responsavel pelos testes de acessos ao YT</doc>
+<status status="PASS" starttime="20210708 00:10:32.405" endtime="20210708 00:10:42.146"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Teste Yt">Teste Yt</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
